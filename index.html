@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treemap diagram</title>
+    <script src="./JS/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title" id="title">
+            <h1>Kickstarter Pledges</h1>
+            <p id="description">Top 100 Most Pledged Kickstarter Campaigns Grouped By Category</p>
+        </div>
+       
+    </div>
+    <svg id="legend" height="300">
+        <g>
+            <rect class="legend-item" x="10" y="0" width="40" height="40" fill="#64a800"></rect>
+            <text x="60" y="22" fill="black">Action</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="40" width="40" height="40" fill="#a84400"></rect>
+            <text x="60" y="62" fill="black">Adventure</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="80" width="40" height="40" fill="#e5e8ff"></rect>
+            <text x="60" y="102" fill="black">Comedy</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="120" width="40" height="40" fill="#ccd1ff"></rect>
+            <text x="60" y="142" fill="black">Drama</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="160" width="40" height="40" fill="#808cff"></rect>
+            <text x="60" y="182" fill="black">Animation</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="200" width="40" height="40" fill="#cac150"></rect>
+            <text x="60" y="222" fill="black">Family</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="240" width="40" height="40" fill="#56cb50"></rect>
+            <text x="60" y="262" fill="black">Biography</text>
+        </g>
+    </svg>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="./index.js"></script>
+</html>
